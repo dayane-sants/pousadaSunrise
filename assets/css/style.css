@@ -54,7 +54,6 @@ ul {
 
 .areaNav li a:hover{
     color:#26c6da;
-
 }
 
 .areaConta{
@@ -86,3 +85,56 @@ ul {
     background-position: center;
     background-size: cover;
 }
+
+.aboutUs{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.aboutUs .container{
+    display: flex;
+}
+
+.historia{
+    flex: 1;
+}
+
+.historia p{
+    color:#707070 ;
+    margin-top: 30px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo h1{
+    color: #fe8a65;
+    font-weight:900; 
+}
+
+.imgAreaAbout{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.imgAbout{
+    background-image: url(/assets/img/sobre_home.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 330px;
+    width: 460px;
+    border-radius: 30px;
+    box-shadow:-10px 10px 20px #bdbdbd;
+}
+
+.widgetTitle{
+    height: 10px;
+    width: 100px;
+    background-color:#26c6da ;
+}
+
