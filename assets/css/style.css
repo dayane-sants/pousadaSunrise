@@ -3,6 +3,7 @@
 	border: 0;
 	font: inherit;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
 }
 
 .nav{
@@ -25,7 +26,6 @@
     height: 60%;
     width: auto;
 }
-
 
 .areaNav{
     flex: 2.5;
@@ -110,16 +110,21 @@ ul {
     justify-content: space-between;
 }
 
-.titulo h1{
+.titulo h1, .titleCards h1{
     color: #fe8a65;
     font-weight:900; 
+}
+
+.widgetTitle{
+    height: 10px;
+    width: 100px;
+    background-color:#26c6da ;
 }
 
 .imgAreaAbout{
     flex: 1;
     display: flex;
     justify-content: flex-end;
-
 }
 
 .imgAbout{
@@ -132,9 +137,105 @@ ul {
     box-shadow:-10px 10px 20px #bdbdbd;
 }
 
-.widgetTitle{
+.titleCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleCards h1{
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.widgetTitleCards{
     height: 10px;
     width: 100px;
     background-color:#26c6da ;
 }
 
+.cardsItens{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.card{
+    height: auto;
+    width: 235px;
+    padding: 15px 0px;
+    box-shadow:0px 0px 20px 1px #bdbdbd;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.imgCard {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.infProd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 0;
+}
+
+.infProd h3{
+    color: #fe8a65;
+    font-weight: 900;
+    font-size: medium;
+    padding-top: 6px;
+}
+
+.infProd p{
+    color: #707070;
+    font-size: x-small;
+    padding: 5px 20px; 
+}
+
+.precoBotao{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.precoProd{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    width: 100%;
+    flex: 1;
+}
+
+.precoProd span{
+    color: #707070;
+    font-size: xx-small;
+}
+
+.precoProd p{
+    color: #fe8a65;
+    font-size: 15PX;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.precoBotao button{
+    background-color: #26c6da;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    flex: 1;
+    font-weight: 800;
+    padding: 7px;
+}
