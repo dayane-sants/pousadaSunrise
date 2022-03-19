@@ -3,7 +3,6 @@
 	border: 0;
 	font: inherit;
     font-family: 'Roboto', sans-serif;
-    padding-bottom: 5px;
 }
 
 .nav{
@@ -137,6 +136,11 @@ ul {
     box-shadow:-10px 10px 20px #bdbdbd;
 }
 
+.areaCards{
+    display: flex;
+    flex-direction: column;
+}
+
 .titleCards{
     display: flex;
     flex-direction: column;
@@ -156,9 +160,9 @@ ul {
 .cardsItens{
     display: flex;
     align-items: center;
-    width: 80vw;
+    width: 100%;
     height: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .card{
@@ -238,4 +242,174 @@ ul {
     flex: 1;
     font-weight: 800;
     padding: 7px;
+}
+
+
+.rodape{
+    background-color: #25bfd3;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.rodape .container{
+    display: flex;
+    height: inherit; 
+    justify-content: space-between;   
+}
+
+.areaLogoRodape{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logoRodape img{
+    background-position: center;
+    background-size: cover;
+    height: 69px;
+    width: 205px;
+    margin-top: 10px;
+}
+.areaLogoRodape span{
+    color: #fff;
+    font-size: 11px;
+}
+
+.linksRodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linksRodape h1{
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+}
+
+.widgetLinksRodape{
+    height: 7px;
+    width: 72px;
+    background-color:#fff ;
+    margin-left: -79px;
+}
+
+.links{
+    margin-top: 40px;
+    display: flex;
+}
+
+
+.infoContatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.links .links1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.links .links2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.links1 a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+}
+
+.links2 a{
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    align-items: flex-end;
+}
+
+.contatosRodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contatosRodape a{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.endereço, .tel, .whats, .email{
+    display: flex;
+    padding-bottom: 15px;
+} 
+
+.contatosRodape img{
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+.infoRodape{
+    display: flex;
+    background-color: #20a8b8;
+    height: 35px;  
+    justify-content: center;
+}
+
+.redesSociais img{
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+.redesSociais{
+    display: flex;
+    margin-left: 117px;
+    margin-right: 53px;
+    margin-top: 0px;
+}
+
+.redesSociais a{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.infoRodape a{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.infoRodape b{
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+    opacity: 0.5;
 }
